@@ -43,7 +43,7 @@ function SideBar(props) {
                         :
                         <ArrowRightIcon className='h-5 w-5' />}
                 </div>
-                <div className='flex flex-col px-4 sm:py-2 md:py-4 gap-y-4 font-medium flex-grow-0 overflow-y-auto mb-28 text-xs sm:text-sm md:text-base'>
+                <div className='flex flex-col px-4 sm:py-2 md:py-4 gap-y-4 font-medium flex-grow-0 overflow-y-auto sm:mb-1 md:mb-28 text-xs sm:text-sm md:text-base'>
                     <p>This app is just a POC, created to demonstrate working with Firebase + Firestore for authentication and authorization.</p>
                     <p>Zustand and Immer for inner state management.</p>
                     <p>Tailwind CSS for styling.</p>

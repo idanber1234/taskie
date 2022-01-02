@@ -6,7 +6,7 @@ import TopBar from './topbar/TopBar';
 function Layout({ children, currentUser }) {
     const menuState = dataStore(state => state.isMenuOpen);
     return (
-        <div className='min-w-fit w-full min-h-screen bg-gray-900'>
+        <div className='min-w-fit w-full h-[200vh] bg-gray-900 bg-fixed'>
             <TopBar currentUser={currentUser} />
             <SideBar currentUser={currentUser} />
 

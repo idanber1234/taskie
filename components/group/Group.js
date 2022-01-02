@@ -2,7 +2,6 @@ import { CheckIcon, PencilIcon, PlusIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import dataStore from "../../data/dataStore";
 import Select from 'react-select'
-import GroupTitle from "./GroupTitle";
 
 function Group({ children, title, snapshot, index }) {
     const [showInput, setShowInput] = useState(false);
